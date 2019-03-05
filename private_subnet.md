@@ -172,16 +172,12 @@ JCS의 json 파일을 얻는 방법과 마찬가지로 json 파일을 얻습니�
 	"isBYOL": "true"
 }
 ~~~
-생성된 json 파일에서 다음의 두 문구는 오류로 인해 오류가 날 수 있으니 제거합니다.
-~~~json
-"enableAdapters": "false",
-"purchasePack": "soaosbb2b",
-~~~
+
 subnet 과 <Fill_Here>를 채워줍니다.
 
 JCS와 마찬가지로 psm을 이용하여 프로비저닝 합니다.
 ~~~
-$ psm jcs create-service -c service_payload_mysoa.json
+$ psm soa create-service -c service_payload_mysoa.json
 ~~~
 
 
