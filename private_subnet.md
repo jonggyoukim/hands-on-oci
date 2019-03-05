@@ -16,7 +16,7 @@ JCS 프로비저닝 단계의 마지막에서 json 파일을 얻을 수 있습�
     - Availability Domain : 도메인 선택
     - Subnet : `public subnet 을 선택 (private subnet은 보이지 않음)`
     
-    ![](./images/jcs2.PNG)
+    ![](./images/jcs2.png)
 
 1. 항목을 채웁니다.
 
@@ -26,13 +26,13 @@ JCS 프로비저닝 단계의 마지막에서 json 파일을 얻을 수 있습�
     - Administrator User Name : SYS
     - Passworld : 패스워드
 
-    ![](./images/jcs3.PNG)
+    ![](./images/jcs3.png)
     
 1. json 파일을 다운로드 받습니다.
 
-    화면 우측의 ![](./images/jcs5.PNG)를 눌러 JCS 파일을 다운로드 받습니다.
+    화면 우측의 ![](./images/jcs5.png)를 눌러 JCS 파일을 다운로드 받습니다.
 
-    ![](./images/jcs4.PNG)
+    ![](./images/jcs4.png)
 
     화면 왼측의 "취소"를 눌러 프로비저닝 단계를 취소합니다.
 
@@ -114,23 +114,23 @@ private subnet 으로 만들어진 jcs는 접근이 불가합니다. 그래서 L
 
 1. OCI의 Networking > Load Balancers 를 클릭합니다.
 
-![](./images/lb1.PNG)
+![](./images/lb1.png)
 
 1. Load Balancers를 Public 으로 만듭니다.
 
-![](./images/lb2.PNG)
+![](./images/lb2.png)
 
 1. Backend Sets에 7001과 80 포트를 해당 JCS의 IP에 연결합니다.
 
-![](./images/lb3.PNG)
+![](./images/lb3.png)
 
 1. Listeners에 7001과 80 포트를 만들어줍니다.
 
-![](./images/lb4.PNG)
+![](./images/lb4.png)
 
 1. Load Balancers의 IP를 이용하여 Weblogic Console에 접근합니다.
 
-![](./images/lb5.PNG)
+![](./images/lb5.png)
 
 # SOACS를 private subnet 에서 프로비져닝 하기
 JCS의 json 파일을 얻는 방법과 마찬가지로 json 파일을 얻습니다.
