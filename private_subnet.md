@@ -114,23 +114,23 @@ private subnet 으로 만들어진 jcs는 접근이 불가합니다. 그래서 L
 
 1. OCI의 Networking > Load Balancers 를 클릭합니다.
 
-![](./images/lb1.png)
+    ![](./images/lb1.png)
 
 1. Load Balancers를 Public 으로 만듭니다.
 
-![](./images/lb2.png)
+    ![](./images/lb2.png)
 
-1. Backend Sets에 7001과 80 포트를 해당 JCS의 IP에 연결합니다.
+1. Backend Sets을 만들고 80 포트를 해당 JCS의 IP에 연결합니다.
 
-![](./images/lb3.png)
+    ![](./images/lb3.png)
 
-1. Listeners에 7001과 80 포트를 만들어줍니다.
+1. Listeners에 80 포트를 만들어줍니다.
 
-![](./images/lb4.png)
+    ![](./images/lb4.png)
 
-1. Load Balancers의 IP를 이용하여 Weblogic Console에 접근합니다.
+1. Load Balancers의 IP를 이용하여 sampe-app에  접근합니다.
 
-![](./images/lb5.png)
+    ![](./images/lb5.png)
 
 # SOACS를 private subnet 에서 프로비져닝 하기
 JCS의 json 파일을 얻는 방법과 마찬가지로 json 파일을 얻습니다.
